@@ -10,18 +10,34 @@
     <div class="box">
        <div class="img-container">
             <img src="./images/img-1.jpg" alt="" class="main-img">
-            <div class="mini-img">
+            <div class="small-img-container">
                 <img src="./images/img-2..jpg" alt="" class="small-img">
                 <img src="./images/img-3.jpg" alt="" class="small-img">
                 <img src="./images/img-4.jpg" alt="" class="small-img">
                 <img src="./images/img-4.jpg" alt="" class="small-img">
-                <img src="./images/img-4.jpg" alt="" class="small-img">
+            </div>
+            <div class="small-img-container">
+                <img src="./images/meet.png" alt="" class="icon">
+                <img src="./images/video-camera.png" alt="" class="icon">
+                <img src="./images/voice (1).png" alt="" class="icon">
+                <img src="./images/circle.png" alt="" class="icon">
             </div>
        </div>
   
         <div class="search-container">
+           <div class="chat">CHAT</div>\
+           
+           <input type="text"
+                  class="search"
+                  id="search"
+                  placeholder="Search"
+                  onkeyup="loadSearchResult()"/>
 
+           <div class="card-container" id="card-container">
+           </div>
         </div>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
