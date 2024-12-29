@@ -1,4 +1,4 @@
-const student = ["Nidhi","Mannat","Sandhya","Vikas","Shourya","Nishant","Pranav","Sujata","Snehal","Piyara","Shobha","Krish","Vidhi"]
+const student = ["Nidhi","Mannat","Ritiksha","Vikas","Shourya","Ekisha","Pranav","Sujata","Snehal","Piyara","Shobha","Krish","Vidhi"]
 const studentContainer= document.getElementById(`card-container`);
 
 function renderstudents(studentlist){
